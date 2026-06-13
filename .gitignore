@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+# Databricks
+.databricks/
+*.dbc
+# Data files (don't commit large data)
+data/raw/*.csv
+data/processed/*.parquet
+# Secrets
+config/secrets.yml
+*.key
