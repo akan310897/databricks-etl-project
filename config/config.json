@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "catalog": "retail_catalog",
+    "schema": "retail",
+    "paths": "/Volumes/retail_catalog/retail/raw_files",
+    "tables": {
+    "bronze": {
+      "products":   "bronze_products",
+      "customers":  "bronze_customers",
+      "orders":     "bronze_orders"
+    },
+    "silver": {
+      "products":   "silver_products",
+      "customers":  "silver_customers",
+      "orders":     "silver_orders"
+    },
+    "gold": {
+      "sales":      "gold_sales",
+      "enriched":   "enriched_orders"
+    }
+  }
+  }
+}
+    
